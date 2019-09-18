@@ -1,0 +1,17 @@
+package OoPs.Overridding;
+
+public class Key {
+    protected void disp()    ////// focus
+    {
+        System.out.println("Parent class method");
+    }
+}
+class MyChildClass extends Key{
+    public void disp(){         //focus
+        System.out.println("Child class method");
+    }
+    public static void main( String args[]) {
+        MyChildClass obj1 = new MyChildClass();
+        obj1.disp();
+    }
+}

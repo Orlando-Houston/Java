@@ -1,0 +1,32 @@
+package SubjectHeadings.IfFerhat;
+//if true or false olarak calisir.
+
+public class IfControl1 {
+    public static void main(String[] args) {
+        int number1=45;   //sayi biri artitirsam bu durum gerceklesecek.
+        int number2=35;
+
+        if (number1>number2){ //eger sayi 1 sayi ikiden buyukse ekrana yazdirsin diyorum.ekrana yazdirmadi.
+
+            System.out.println("number1 greates than number2");//burasi true olursa ayni blokta isler yapabilirsiniz.
+
+             if (number1-number2>5){
+                 System.out.println("number1 and number2 mines graetest than 5 ");
+             }
+        if (number1<number2){
+            System.out.println("number1less than number2");
+        }
+        if (number1 !=number2){
+            System.out.println("number1 dosen't equal number2");
+
+        }
+        if (number1==number2){
+            System.out.println("number1 equal number2");
+        }
+        System.out.println("comparison finished");
+
+    }
+
+
+
+}
