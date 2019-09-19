@@ -1,4 +1,4 @@
-package Aug24Abstraction;
+package Cours.Aug24Abstraction;
 
 import OoPs.Interface.AnimalInterFace;
 

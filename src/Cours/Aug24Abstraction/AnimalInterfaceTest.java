@@ -1,4 +1,4 @@
-package Aug24Abstraction;
+package Cours.Aug24Abstraction;
 
 public class AnimalInterfaceTest {
     public static void main(String[] args) {
