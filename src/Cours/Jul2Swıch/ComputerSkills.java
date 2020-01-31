@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class ComputerSkills {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
+        Scanner compSkill=new Scanner(System.in);
         System.out.print("What is your skill? Java/SQL/Cloud");
-        String skill=scanner.next();
+        String skill=compSkill.next();
+
         if (skill.equals("Java")){
             System.out.print("QA");
 

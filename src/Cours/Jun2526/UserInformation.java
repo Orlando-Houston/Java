@@ -8,8 +8,11 @@ public class UserInformation {
         Scanner userInfo=new Scanner(System.in);
         System.out.print("Please enter write your name:");
         String userName=userInfo.next();
+        System.out.println(userName);
+
         System.out.print("please enter your age:");
         int userAge=userInfo.nextInt();
+        System.out.println(userAge);
 
 
         System.out.println("please enter your hair color");

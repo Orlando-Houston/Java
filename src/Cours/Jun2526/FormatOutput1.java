@@ -13,6 +13,8 @@ public class FormatOutput1 {
         System.out.println(stringSample1 + "  " + stringSample2);
 
  */
+float percentage=78.98f;
+        System.out.printf("Yes %.2f of people think is fun",percentage);
 
 
     }
