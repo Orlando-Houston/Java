@@ -12,4 +12,8 @@ public class ToFindMinOrMax {
         }
         return res;
     }
+
+    public static void main(String[] args) {
+
+    }
 }

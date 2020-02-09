@@ -1,7 +1,12 @@
 package SubjectHeadings.Arrays.ArrayMyReview;
 
 public class LargestCode1 {
-    static   int arr[]={12,13,1,14,10,16};
+    public static void main(String[] args) {
+
+
+    }
+        static int arr[] = {12, 13, 1, 14, 10, 16};
+
     static int largest(){
 
         int i;
@@ -13,6 +18,7 @@ public class LargestCode1 {
             }
         }
         return max;
-    }}
+    }
+}
 
 
