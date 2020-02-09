@@ -11,6 +11,7 @@ public class O114ArrCont {
                // continue://compiler error
              //   count++;  compiler error
             }
+            count++;
 
         }
     }
