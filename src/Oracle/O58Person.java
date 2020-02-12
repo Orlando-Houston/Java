@@ -6,7 +6,7 @@ public class O58Person {
     private int age=25;
 
     public O58Person(String name){   //const   with parameter
-      //  this();      //line n1
+      // this()      //line n1
       //  setName ();
 
 
