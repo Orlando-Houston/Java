@@ -5,12 +5,12 @@ public class DogTester {
         Dog husky=new Dog();
 
         System.out.println (husky.count);//warning
-        System.out.println (Dog.count);
+        System.out.println (Dog.count);//we call  static  variable
 
         Dog anotherDog=new Dog();
         anotherDog.incrementCounter();//warning
 
-        Dog.incrementCounter();
+        Dog.incrementCounter();  //we call static method
         System.out.println (Dog.count);
 
 
