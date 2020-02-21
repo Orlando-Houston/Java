@@ -16,6 +16,17 @@ public class PassingDataBetweenMethods {
         newName (name);
         System.out.println ("newName"+name);
 
+
+
+
+        StringBuilder sb=new StringBuilder ();
+
+        StringBuilder s=sb;
+        s.append ("Antony");
+        build (sb);
+        System.out.println ("String Bulider"+sb);
+
+
     }
     public static void newNumber(int number){
         System.out.println ("in new Number"+number);
@@ -28,6 +39,12 @@ public class PassingDataBetweenMethods {
 
         name="Tommy";
         System.out.println ("in new name2="+name);
+
+    }
+
+    public  static  void build(StringBuilder s){
+      //  s=new StringBuilder ();
+        s.append ("Timoty");
 
     }
 }
