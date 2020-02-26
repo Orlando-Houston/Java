@@ -6,18 +6,26 @@ public class O25Employee {
     boolean contract;
     double salary;
 
+
+
+
+
+
     O25Employee(){   //constructor
+
+
 
         this.name=new String ("Joe");
         this.contract= new Boolean (true);
-        this.salary=100.0f;
+        this.salary= new Double(100);
 
         //line n1
 
-       
 
     }
-    public String toString(){
+
+    public String toString()  //override method in object
+    {
         return name+":"+contract+":"+salary;
     }
 

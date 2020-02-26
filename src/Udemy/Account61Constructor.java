@@ -8,7 +8,7 @@ public class Account61Constructor {
     private String email;
     private String phoneNum;
 
-    public Account61Constructor(){//constructor
+    public Account61Constructor(){        //constructor
 
     }
     public Account61Constructor(String accountNumber,double balance, String name,String email, String phoneNum){  // overloading
@@ -23,13 +23,13 @@ public class Account61Constructor {
 
 
 
-    public void deposit(double amount){
-        balance+=amount;  //if you want this. can write
+    public void deposit(double amount){        //para yatirmak
+        balance+=amount;        //if you want this. can write
         System.out.println ("new balance="+balance);
     }
 
 
-    public void withdrawal(double amount){
+    public void withdrawal(double amount){    ///amount mean miktar
         if (amount>800){
             System.out.println (" if You were$ 800 a day,you wouldn't  be able to withdrawal  more...");
             if (balance-amount<0){
