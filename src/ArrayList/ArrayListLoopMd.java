@@ -9,7 +9,7 @@ public class ArrayListLoopMd {
         myList.add(4);
         myList.add(10);
         myList.add(50);
-        myList.remove(0);
+      //  myList.remove(0);
         //Regular For Loop
         for(int i=0 ; i < myList.size() ;i++){
             System.out.println(myList.get(i));
