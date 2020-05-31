@@ -12,8 +12,8 @@ public class ArrayLstToArr {
     }
     public static String[] convertToStringArray(ArrayList<String> arr){
         String[] arrStr = new String[arr.size()];
-        for(int i=0 ; i< arrStr.length ; i++){
-            arrStr[i]=arr.get(i);
+       for(int i=0 ; i< arrStr.length ; i++){
+           arrStr[i]=arr.get(i);
         }
         return arrStr;
     }
