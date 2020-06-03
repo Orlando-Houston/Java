@@ -8,12 +8,18 @@ public class LinkedListExample {
         LinkedList<String>linkedList=new LinkedList<String> ();
         /*add string element is used for addding
         * the elements to the linked list*/
-        linkedList.add ("L");
-        linkedList.add ("T ");
-        linkedList.add ("U ");
-        linkedList.add ("N ");
+        linkedList.add ("Java");
+        linkedList.add ("is ");
+        linkedList.add ("amazing ");
+        linkedList.add ("programing ");
+        linkedList.add ("languages");
+       // System.out.println (linkedList);
 
-        System.out.println (linkedList);
+
+        for (String word:linkedList){
+            System.out.println (word);
+            System.out.println (word+" length:"+word.length ());
+        }
 
 
 
