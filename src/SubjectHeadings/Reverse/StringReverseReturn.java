@@ -11,7 +11,8 @@ public class StringReverseReturn {
         return reverse;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         System.out.println(myReverse());
     }
 }
